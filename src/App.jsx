@@ -8,7 +8,7 @@ const App = () => {
 
 
     React.useEffect(() => {
-        socketRef.current = io('http://localhost:8080')
+        socketRef.current = io('https://socket-backend-test.vercel.app')
     }, [])
 
     return <div></div>
